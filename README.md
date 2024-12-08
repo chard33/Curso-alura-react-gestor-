@@ -8,6 +8,14 @@ Una aplicación desarrollada para aprender y practicar conceptos fundamentales d
 
 Esta aplicación permite gestionar equipos y sus integrantes de forma dinámica. Con funcionalidades básicas pero prácticas,  para reforzar habilidades en React y en el desarrollo frontend.
 
+## Pagina
+
+![Alt text](https://github.com/chard33/Curso-alura-react-gestor-/raw/m/public/Captura%20de%20pantalla%202024-12-07%20220650.png)
+
+## 🔗 Links
+
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://org-gestor.vercel.app/)
+
 ---
 
 ## **Características Principales**
