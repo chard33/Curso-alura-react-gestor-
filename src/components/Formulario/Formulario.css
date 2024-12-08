@@ -1,0 +1,38 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    max-width: 96%;
+    margin: 50px auto 20px auto;
+    gap: 33px;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 18px;
+    color: #212121;
+    font-family: 'Montserrat';
+}
+
+.formulario form{
+    background: #F7F7F7;
+    box-shadow: 7px 7px 20px 3px rgba(0, 0, 0, 0.33);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+    padding: 5vh;
+}
+
+.formulario h2{
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    color: #212121;
+    text-align: justify;
+}
+
+.selectorColor{
+    width: 85%;
+    height: 29px;
+    margin: 5px 0 15px 0;
+    cursor: pointer;
+}

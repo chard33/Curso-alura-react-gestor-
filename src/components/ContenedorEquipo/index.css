@@ -1,0 +1,33 @@
+.contenedorEquipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.contenedorEquipo h3{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #212121;
+    display: inline-block;
+    border-bottom: 3px solid;
+    padding-bottom: 4px;
+}
+
+.contenedorColaboradores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 33px;
+}
+
+.seleccionColor{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+

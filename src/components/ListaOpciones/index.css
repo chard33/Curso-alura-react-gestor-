@@ -1,0 +1,29 @@
+.campo-seleccion{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat';
+}
+
+.campo-seleccion label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #212121;
+}
+
+.campo-seleccion select {
+    background: #FFFFFF;
+    border: none;
+    padding: 25px 20px;
+    outline-color: #6278F7;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.campo-seleccion select:invalid { 
+    color: gray; 
+}

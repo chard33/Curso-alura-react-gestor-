@@ -1,0 +1,33 @@
+.orgSeccion{
+    width: 70%;
+    margin: auto;
+    display: flex;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  margin-bottom: 15px;
+  text-wrap: nowrap;
+  flex-grow: 1;
+}
+
+.orgSeccion h3{
+    border-bottom: 4px solid #6278F7;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6278F7;
+    padding-bottom: 10px;
+    flex: 0 1 auto;
+  position: absolute;
+  /* new */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.orgSeccion img{
+    width: 60px;
+    cursor: pointer;
+    flex: 0 1 auto;
+  margin-left: auto;
+}
