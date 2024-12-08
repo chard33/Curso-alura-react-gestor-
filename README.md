@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# **Organizador de Equipos**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación desarrollada para aprender y practicar conceptos fundamentales de **React**, para el curso en el PROGRAMA ONE de Alura latam, incluyendo el manejo de componentes, la comunicación entre componentes padre e hijo, y la interacción con estados locales.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Descripción del Proyecto**
 
-### `npm start`
+Esta aplicación permite gestionar equipos y sus integrantes de forma dinámica. Con funcionalidades básicas pero prácticas,  para reforzar habilidades en React y en el desarrollo frontend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Características Principales**
+- **Creación de Equipos:** Agrega nuevos equipos según sea necesario.
+- **Gestión de Miembros:** 
+  - Añade nuevos miembros a los equipos.
+  - Elimina miembros existentes.
+  - Marca miembros como favoritos para destacar su relevancia.
+- **Interacción Intuitiva:** Interfaz moderna y fácil de usar, desarrollada con un enfoque en la usabilidad.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Tecnologías Utilizadas**
+- **Lenguaje:** JavaScript (ES6+)
+- **Framework:** React.js
+- **Estilos:** CSS
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Requisitos Previos**
+- **Node.js** (versión recomendada: 14 o superior)
+- **npm** o **yarn** como gestor de paquetes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Instrucciones de Instalación**
+1. **Clonar el Repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/organizador-equipos.git
+   cd organizador-equipos
+   
+2. **Instalar Dependencias:**
+   ```bash
+   npm install
+   # o
+   yarn install
 
-### `npm run eject`
+3. **Iniciar la Aplicación:**
+   ```bash
+   npm start
+   # o
+   yarn start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **Uso**
+1. Agrega un nuevo equipo utilizando el botón correspondiente.
+2. Incorpora miembros al equipo completando el formulario.
+3. Gestiona los miembros:
+  -Elimina integrantes si ya no forman parte del equipo.
+  -Marca a un miembro como favorito haciendo clic en el ícono correspondiente.
+   
+---
